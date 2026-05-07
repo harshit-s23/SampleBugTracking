@@ -3,7 +3,7 @@ function login(){
     let user=document.getElementById("u").value;
     let pass=document.getElementById("p").value;
 
-    if(user=="admin" && pass=="1234"){
+    if(user=="admin" && pass=="123"){
         document.getElementById("msg").innerHTML="Login Successful";
     }
     else{
